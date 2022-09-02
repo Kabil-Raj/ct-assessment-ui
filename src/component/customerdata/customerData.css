@@ -1,0 +1,73 @@
+.customerData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.customerData h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.showCustomerList{
+    align-self: center;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(53, 56, 202);
+    border: 1px solid 10px;
+    border-radius: 30px;
+    color: rgb(247, 247, 247);
+    font-weight: bolder;
+}
+
+.showCustomerList:hover {
+    background-color:rgb(66, 68, 138); ;
+}
+
+.updateCustomerData {
+    align-self: center;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(53, 56, 202);
+    border: 1px solid 10px;
+    border-radius: 30px;
+    color: rgb(247, 247, 247);
+    font-weight: bolder;
+}
+
+.updateCustomerData:hover {
+    background-color:rgb(66, 68, 138); ;
+}
+
+
+
+table{
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(78, 130, 172);
+    width: 100%;
+}
+
+th {
+    color: aliceblue;
+    border: 1px solid rgb(19, 25, 31);
+} 
+
+td {
+  background-color: rgb(122, 155, 155);
+  border: 1px solid black;
+  text-align: center;
+  width: 20%;
+}
+
+td input {
+    border-radius: 5%;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+}
+
+td select option {
+    text-align: center;
+}
